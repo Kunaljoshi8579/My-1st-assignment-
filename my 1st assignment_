@@ -1,0 +1,620 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "3e4c0662-280e-4c58-9711-c9b1fac3e4bf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Create one variable containing following type of data:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "d1918a47-3874-460e-a2a9-71670fd2f708",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "A=\"kunal\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "6be0d7dd-b9bc-403a-85ee-3bee8a86e5b8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(A)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "8a90859b-e760-4222-9668-b2548e5186f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "B=[1,2,3,4,True, False, 46+9j]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "4bf393fd-5617-4553-a6c2-291c9cc84525",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(B)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "400a83ae-80f1-45d1-9485-a71a825d9e4d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "C= 78.25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "c074dccf-ad8e-4e95-9964-eb4e54ef3769",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(C)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "36df56b1-b84a-4043-b3a7-56a3febd472c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "D= (1,\"Apple\", True, 78.23)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "bbdfca7f-3de6-4f3b-82d2-efe95eda6854",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(D)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e42f8c62-8ca4-4164-b5c7-5c2ef17f02af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#The data types of the given variables are as follows:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "1b6cf685-221d-4353-9cad-49133f745f64",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# (i) var1: str\n",
+    "#(ii) var2: str\n",
+    "#(iii) var3: list\n",
+    "#(iv) var4: float"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "9c9cd96a-5aac-4490-ab8c-8b3b2a1600a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Here are explanations and examples for the operators you mentioned:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "6a59adb9-86ca-4905-8027-eb9ec9fb891f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#(i) / (Division Operator):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "70c31a26-d6b5-482b-8fcb-7d32ce8a5ffc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.5"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7/2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "344e9872-52fb-4575-8eb7-9c039c97fb7f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#The / operator is used for division in most programming languages."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "6d478abb-79fb-446b-92e6-a4f2e308340e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#(ii) % (Modulus Operator):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "3d90b3a2-7916-44fc-bfd2-83bac0e0feac",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7%3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "4ee76017-fcac-4a3e-9bb1-c39a7ab2f649",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#The % operator is used to find the remainder of a division operation."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "2433bdca-80ea-4b74-9aa5-af6731f31458",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#(iii) // (Floor Division Operator):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "7cad280c-6f18-4856-8e96-1433cb0e30f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "7//2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "5c9e9f92-b15a-4c51-b1b9-bcbaab28817c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#The // operator is used for floor division, which means it returns the largest integer less than or equal to the division result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "86620aaa-1519-4b66-8a86-0ee130c0f1ff",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#(iv) ** (Exponentiation Operator):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "5e40f0a0-1f29-4b94-9bfe-eb19838ad600",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "4d8773f9-6b56-4964-9893-880d327d030d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#The ** operator is used to raise a number to a power."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "54f2da4d-154d-45d8-a33c-b0037544952e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Here's an example of a list containing various types of data, and then I'll use a for loop to print each element along with its data type:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "127ef2e0-5935-4078-b7e2-8d6a1e53bc47",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 <class 'int'>\n",
+      "2 <class 'int'>\n",
+      "3 <class 'int'>\n",
+      "4 <class 'int'>\n",
+      "5 <class 'int'>\n",
+      "6 <class 'int'>\n",
+      "7 <class 'int'>\n",
+      "True <class 'bool'>\n",
+      "Kunal <class 'str'>\n",
+      "(45+4j) <class 'complex'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "K=[1,2,3,4,5,6,7,True,\"Kunal\",45+4j]\n",
+    "for i in K:\n",
+    "    print(i,type(i))\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "f80501b9-0794-479e-9e37-2b6e49981217",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "z is not purely divisible by x\n"
+     ]
+    }
+   ],
+   "source": [
+    "z=25\n",
+    "x=5\n",
+    "l=0\n",
+    "while z >=x:\n",
+    "    if z% x==0:\n",
+    "        z = z // x\n",
+    "        l+=z\n",
+    "    else:\n",
+    "        break\n",
+    "if z==0:\n",
+    "    print(f\"{count}times\")\n",
+    "else:\n",
+    "    print(\"z is not purely divisible by x\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "b3c50945-455e-49e6-82e5-9327450b1f47",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#hence z is divisible 2 times from x\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "8a0a16e5-54bd-45fa-a7f8-7ea5e0ec420e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1 is not divisible by 3\n",
+      "2 is not divisible by 3\n",
+      "3 is divisible by 3\n",
+      "4 is not divisible by 3\n",
+      "5 is not divisible by 3\n",
+      "6 is divisible by 3\n",
+      "7 is not divisible by 3\n",
+      "8 is not divisible by 3\n",
+      "9 is divisible by 3\n",
+      "10 is not divisible by 3\n",
+      "11 is not divisible by 3\n",
+      "12 is divisible by 3\n",
+      "13 is not divisible by 3\n",
+      "14 is not divisible by 3\n",
+      "15 is divisible by 3\n",
+      "16 is not divisible by 3\n",
+      "17 is not divisible by 3\n",
+      "18 is divisible by 3\n",
+      "19 is not divisible by 3\n",
+      "20 is not divisible by 3\n",
+      "21 is divisible by 3\n",
+      "22 is not divisible by 3\n",
+      "23 is not divisible by 3\n",
+      "24 is divisible by 3\n",
+      "25 is not divisible by 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25)\n",
+    "for i in m:\n",
+    "    if i%3==0:\n",
+    "        print(f\"{i} is divisible by 3\")\n",
+    "    else:\n",
+    "        print(f\"{i} is not divisible by 3\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "b0c73534-d375-433d-939c-5572be8be54f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Mutable and immutable data types are concepts in programming that describe whether the data within a variable can be changed after it is created. Understanding the distinction between these two types is essential, as it impacts how you work with data in your programs."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6574db2b-3011-448a-9868-32b39bc555c7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# example for mutable"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "efa78ea2-971b-452d-b57d-f671787d7343",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#example for Mutable data type\n",
+    "p=[1,2,3,4]\n",
+    "p[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "a35feadd-944b-435d-ae7b-6a9cdd314b9d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p[2]= 300"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "9dbf43ba-aa07-4acb-b7ce-85de9056c40a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[1, 2, 300, 4]"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "p"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "9c3d30cf-5158-44b1-95cc-bc8e850135c1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Mutable data types are those where the data within the variable can be modified or changed after it is created."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "b1c49924-eeb1-4973-814b-3a57db852b39",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#example for imutable data type"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "9014dbcc-61c9-4cc4-aa32-75d65dcd14cb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "q=100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "68ee84cd-f39a-4bf9-a886-11458627324b",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'int' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[20], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mq\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[38;5;241m=\u001b[39m\u001b[38;5;241m15\u001b[39m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'int' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "q[0]=15"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "52faf269-385d-420d-9c2a-2f4102925b01",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Immutable data types are those where the data within the variable cannot be modified after it is created. If you want to change the value, you need to create a new variable.\n",
+    "#In Python, common examples of immutable data types include integers, strings, tuples, and frozensets."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
